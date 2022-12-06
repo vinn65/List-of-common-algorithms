@@ -1,5 +1,5 @@
 def Bubblesort(my_arr):    
-    for i in range(0,n-1):  
+    for i in range(n-1):  
         for j in range(n-1):  
             if(my_arr[j] > my_arr[j+1]):  
                 temp = my_arr[j]  
@@ -17,5 +17,5 @@ for i in range(0, l):
     my_arr.append(item)
     
 n = len(my_arr)
-print("Your unsorted list/array: ", my_arr)
-print("Your sorted list/array:",Bubblesort(my_arr))
+print("Your unsorted list: ", my_arr)
+print("Your sorted list:",Bubblesort(my_arr))
