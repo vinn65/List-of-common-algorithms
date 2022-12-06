@@ -2,4 +2,4 @@
  Common algorithms code in python
 
 Completed Algorithms
-1)Search algorithms - linear search
+1)Search algorithms - Linear search, Binary search
