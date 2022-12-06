@@ -9,6 +9,27 @@ def Insertionsort(bucket):
             bucket[j + 1] = bucket[j]
             j = j - 1
         bucket[j + 1] = var
+def Bucketsort(my_arr):
+    
+    maxValue = max(my_arr)
+    size = maxValue/n
+
+    buckets = []
+    for x in range(n):
+        buckets .append([]) 
+    for i in range(n):
+        j = int (my_arr[i] / size)
+        if j != n:
+            buckets [j].append(my_arr[i])
+        else:
+            buckets [n - 1].append(my_arr[i])
+    for z in range(n):
+        Insertionsort(buckets[z])
+
+    final_output = []
+    for x in range(len (my_arr)):
+        final_output = final_output + buckets [x]
+    return final_output
    
 
 l = int(input("Enter the number of elements in your array:"))
