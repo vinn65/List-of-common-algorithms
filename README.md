@@ -3,4 +3,4 @@
 
 Completed Algorithms
 1)Search algorithms - Linear search, Binary search
-2)Sorting algorithms - Bubble sort, 
+2)Sorting algorithms - Bubble sort, Insertion Sort
