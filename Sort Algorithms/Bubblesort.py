@@ -18,5 +18,4 @@ for i in range(0, l):
     
 n = len(my_arr)
 print("Your unsorted list/array: ", my_arr)
-print("##########################################################################")
 print("Your sorted list/array:",Bubblesort(my_arr))
