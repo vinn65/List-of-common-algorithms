@@ -1,5 +1,4 @@
 #Explanation done here -- https://favtutor.com/blogs/counting-sort-python
-
 def Countingsort(my_arr):
     n = len(my_arr)
     output = [0] * n
